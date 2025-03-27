@@ -8,7 +8,7 @@ API-avaimen (API key). Selvitä myös, miten saat Kelvin-asteet muunnettua Celsi
 import json
 import requests
 
-api_key = "7d52c80773e358d2d40b00030225697b"
+api_key = "TÄHÄN API KOODI"
 hakusana = input("Anna hakusana: ")
 
 pyyntö = f"http://api.openweathermap.org/data/2.5/weather?q={hakusana}&appid={api_key}&units=metric"
